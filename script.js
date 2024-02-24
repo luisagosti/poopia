@@ -37,7 +37,7 @@ const VERTICAL = "vertical";
 var prev;
 
 function setup() {
-	const imageParam = params.get("image") || "image.JPG";
+	const imageParam = params.get("image") || "image2.JPG";
 	const imageURL = isEncoded(imageParam)
 		? decodeURIComponent(imageParam)
 		: imageParam;
